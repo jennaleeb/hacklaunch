@@ -1,0 +1,116 @@
+// Place all the styles related to the SignUps controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+	display: block;
+	font-size: 12px;
+	box-sizing:border-box;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+
+}
+
+body {
+	background: url(https://dl.dropboxusercontent.com/u/19014071/HackerYou/computer_sit.jpg);
+	background-attachment: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	overflow: visible;
+	z-index: 1000;
+}
+
+
+h1,h2 {
+	color: white;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+h1 {
+	top: 1em;
+	font-size: 4em;
+}
+
+h2 {
+	top: 0.5em;
+	font-size: 4em;
+}
+
+.contact-info {
+	font-size: 2em;
+	position: absolute;
+	margin-top: 1em;
+}
+
+.contact-info input[type="text"] {
+	padding-left: 0.2em;
+	margin-bottom: 0.3em;
+	font-size: 1.2em;
+}	
+
+.contact-info input[type="submit"] {
+	background: rgba(37, 167, 119, 1);
+	border: none;
+	font-size: 1.2em;
+	
+}
+
+.contact-info input[type="submit"]:hover { 
+	background: tomato; 
+	opacity: 1;
+
+}
+
+.social-media {
+	position: relative;
+	margin-top: 35em;
+	margin-left: 10em;
+}
+
+.social-media a {
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+.social-media a:hover {
+	opacity: 1;
+}
+.social-media img {
+	height: 50px;
+	width: 50px;
+
+}
+
+#github {
+	height: 43.5px;
+	width: 43.5px;
+	margin-bottom: 3.5px;
+	margin-left: 3px;
+	margin-right: 4px;
+}
+
+.thanks span {
+	text-decoration: underline;
+	background-color: rgba(37, 167, 119, 1);
+	color: black;
+	color: black;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 4px;
+	border: 1px solid rgba(37, 167, 119, 1);
+	border-radius: 5px;
+
+
+}
