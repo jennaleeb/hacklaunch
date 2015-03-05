@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get '/' => 'sign_ups#new'
   get '/submit' => 'sign_ups#submit'
+  get '/all' => 'sign_ups#all'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

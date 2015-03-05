@@ -10,4 +10,8 @@ class SignUpsController < ApplicationController
 		@sign_up.save
 
 	end
+
+	def all
+		@sign_ups = SignUp.count
+	end
 end
